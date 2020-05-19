@@ -5,7 +5,7 @@ This is the project based on the following great tutorial:
 
 ## More Awesome Content
 
-Do him a big ol' favor and check out these awesome links. he release new video tutorials on full stack development Monday-Thursday @ 10:30 AM ET!
+Do him a big ol' favor and check out these awesome links. He release new video tutorials on full stack development Monday-Thursday @ 10:30 AM ET!
 
 * Subscribe to the [DesignCourse YouTube Channel](http://youtube.com/designcourse)
 * Check out the associated website [Coursetro Full Stack Development Training](https://coursetro.com)
