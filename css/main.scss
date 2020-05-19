@@ -1,23 +1,51 @@
 body {
     font-family: 'Montserrat';
-    padding: 9em;
+    user-select: none;
+    background: rgb(56, 56, 56);
 }
 
 h1 {
-    font-size: 5em;
-    width: 25%;
-    color: red;
+    font-size: 9em;
+    font-family: 'Zhi Mang Xing', cursive;
+    width: 50%;
+    color: rgb(238, 3, 3);
     line-height: 1em;
-}
 
-button {
+}
+.hentai{
+    margin-left: 3em;
+}
+.social{
+    width: 13em;
+    margin-left: 5.3em;
+    margin-top: 8.9em;
+}
+.social i {
+    font-size: 26px;
+    color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: ease-in 0.1s;
+}
+.social i:hover{
+    transform: scale(1.2);
+}
+button{
     background: none;
-    border: 1px solid black;
-    font-family: 'Montserrat';
+    border: 2px solid rgb(155, 5, 5);
+    border-radius: 9px ;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 9px;
     font-weight: bold;
     font-size: 1.7em;
     padding: .5em 1em;
     cursor: pointer;
+    transition: ease 0.25s;
+    color: rgb(179, 5, 5);
+
+}
+button:hover{
+    transform: scale(1.1);
 }
 
 .panel {
@@ -25,14 +53,15 @@ button {
     width: 55%;
     bottom: 0;
     right: 0;
-    background: #EAEAEA;
+    background: rgba(0, 0, 0, 0.575);
     box-sizing: border-box;
     padding: 15% 7%;
     transform: scaleY(0);
     transform-origin: bottom;
 
     img {
-        width: 120px;
+        margin-top: -7em;
+        width: 490px;
         float: left;
         margin-right: 50px;
         opacity: 0;
@@ -40,21 +69,36 @@ button {
     }
 
     p {
+        color: rgb(190, 3, 3);
         font-size: 1.9em;
         width: 80%;
         opacity: 0;
     }
 
-    .box {
-        border: 5px solid lightgray;
-        width: 65%;
-        height: 40%;
-        position: absolute;
-        left: -7%;
-        top: 15%;
-        z-index: -1;
-        opacity: 0;
-        transform: scale(0);
-    }
-
 }
+.tooltip {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    margin-bottom: 0.6em;
+  }
